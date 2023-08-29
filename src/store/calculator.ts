@@ -8,6 +8,7 @@ export const useCalculatorStore = defineStore('calculator', {
     actual: '',
     resultado: '',
     acumulador: '',
+    botones: ([7, 8, 9, '/', 4, 5, 6, '+', 1, 2, 3, '-', 0, '.', '%', '*',]),
   }),  
   actions: {
     isNumber(btn) {
