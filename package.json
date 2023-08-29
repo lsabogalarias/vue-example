@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "mathjs": "^11.10.0",
+    "pinia": "^2.1.6",
     "vue": "^3.2.13"
   },
   "devDependencies": {
