@@ -1,8 +1,10 @@
+// Sección de importación de librerias
 import { defineStore } from "pinia";
 import { evaluate, round } from 'mathjs';
 
 export const useCalculatorStore = defineStore('calculator', {
-  state: () => ({
+  state: () => ({ 
+    //Declaracion de variables a utilizar
     arrayCalculos: [],
     operadorClick: true,
     actual: '',
@@ -11,6 +13,7 @@ export const useCalculatorStore = defineStore('calculator', {
     botones: ([7, 8, 9, '/', 4, 5, 6, '+', 1, 2, 3, '-', 0, '.', '%', '*',]),
   }),  
   actions: {
+    //Métodos a usar para uso de la calculadora
     isNumber(btn) {
       return !isNaN(btn);
     },

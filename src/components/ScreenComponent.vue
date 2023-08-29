@@ -6,6 +6,9 @@
 </template>    
  
 <script setup>
+// Importacion de Storage para administracion de estados de componentes
 import { useCalculatorStore } from '../store/calculator.ts'
+
+// Instancio el Storage
 const store = useCalculatorStore()
 </script>
